@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>買い物ページ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./querystring.jsp" method="get">       
+            商品種別：<select name="type">
+                <option name="1" value="1">雑貨</option>
+                <option name="2" value="2">生鮮食品</option>
+                <option name="3" value="3">その他</option>
+            </select>
+            <br>
+            総額：<input type="text" name="total">
+            <br>
+            個数：<input type="text" name="count">
+            <br>
+            <input type="submit" name="button" value="送信">
+        </form>
+    </body>
+</html>
