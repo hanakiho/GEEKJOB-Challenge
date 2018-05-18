@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action ="./profileForm" method ="post">
+            <p>あなたの名前は？</p>
+            <input type="TEXT" name="UserName" size =40>
+            
+            <p>あなたの性別は？</p>
+            <input type ="radio" name="gender" value ="男"/>男
+            <input type ="radio" name="gender" value ="女"/>女
+            <p>あなたの趣味は？</p>
+            <input type="Text" name ="hobby" size="40">
+            <input type="submit" value="送信">
+        </form>
+    </body>
+</html>
+
+/*名前、性別、趣味の情報をフォームによって送信する。
+フォームによって値を送信すると、次回アクセス時にその値がフォームの初期値になる。/*
